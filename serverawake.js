@@ -1,4 +1,4 @@
-import https from "https";
+const https = require("https");
 
 const keepAwake = () => {
   https.get("https://blogappbackend-dzi9.onrender.com/api/blogs", (res) => {
