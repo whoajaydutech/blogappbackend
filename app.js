@@ -10,6 +10,10 @@ dotenv.config();
 
 const app = express();
 
+app.get("/api/test", (req, res) => {
+  res.send("Awaking Server");
+});
+
 // Enable CORS
 app.use(cors());
 
