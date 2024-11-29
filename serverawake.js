@@ -1,7 +1,7 @@
 const https = require("https");
 
 const keepAwake = () => {
-  https.get("https://blogappbackend-dzi9.onrender.com/api/test", (res) => {
+  https.get("https://blogappbackend-m1kn.onrender.com/api/test", (res) => {
     console.log(`Request sent to keep the server awake: ${res.statusCode}`);
   });
 };
