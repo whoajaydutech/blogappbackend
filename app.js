@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const blogRoutes = require("./routes/blogRoutes.js");
-require("./serverawake.js");
+// require("./serverawake.js");
 
 dotenv.config();
 
